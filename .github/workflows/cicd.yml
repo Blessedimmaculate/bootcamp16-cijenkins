@@ -34,7 +34,7 @@ jobs:
     - name: Run Tests with Maven
       run: mvn -B test --file pom.xml
 
-  test:
+  package:
     needs: test
     runs-on: ubuntu-latest
     steps:
